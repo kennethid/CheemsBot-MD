@@ -1,10 +1,10 @@
-//[© 2022 Xeon Bot Inc.]\\
+//[© 2022 Ken- Bot Inc.]\\
 
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
 //~you can recode or copy the codes but give
 //credit.
-//~Thank you to LORD BUDDHA, ME AND MY 
+//~Thank you to LORD SATAN, ME AND MY 
 //FAMILY.
 
 //[modules]\\
@@ -100,11 +100,11 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/J1S3g1fbWSS9r01UNSBLst"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Subscribe Bot's Official YT Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://youtu.be/imFIX-Wrt3s"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Subscribe Bot's Official YT Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://youtu.be/UA_j_72psoo"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -594,7 +594,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
             case 'sc': case 'script': {
-                reply('Script : https://github.com/DGXeon/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/imFIX-Wrt3s\n Dont Forget To Subscribe')
+                reply('Script : https://github.com/DGXeon/CheemsBot-MD\n Dont Forget To Give Star\n\nYoutube : https://youtu.be/UA_j_72psoo\n Dont Forget To Subscribe')
             }
             break
             case 'chat': {
@@ -1215,7 +1215,7 @@ case 'antilink':
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 690-9137-213'
+                                    phoneNumber: '+1 (910) 606-5875'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1821,6 +1821,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 }
                 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
+     
             break
             case 'tiktokmp3': case 'tiktokaudio': {
                 if (!text) throw 'Enter Query Link!'
@@ -2366,6 +2367,11 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
            const devsound = fs.readFileSync('./XeonMedia/botdev.mp3') //u can change the music in XeonMedia folder
            XeonBotInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
+            break          
+            case 'kontol':
+            reply('ih')
+            kontol = fs.readFileSync('./XeonMedia/awok.mp3')
+            XeonBotInc.sendMessage(m.chat, { audio: kontol, mimetype: 'audio/mp4', ptt: true })
             break
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
@@ -2383,11 +2389,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                             	urlButton: {
@@ -2447,7 +2453,7 @@ Please Select Button Below
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                             	urlButton: {
@@ -2482,7 +2488,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_Cheems Bot-MD_",
+                    footerText: "_Kenneth ID_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2613,11 +2619,11 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2655,11 +2661,11 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2692,11 +2698,11 @@ case 'downloadmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2723,11 +2729,11 @@ case 'randommenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2755,11 +2761,11 @@ case 'funmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2795,11 +2801,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2829,11 +2835,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2887,11 +2893,11 @@ case 'horoscopemenukcodk': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2925,11 +2931,11 @@ case 'convertmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2965,11 +2971,11 @@ case 'nocategorymenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3002,11 +3008,11 @@ case 'databasemenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3034,11 +3040,11 @@ case 'anonymouschatmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3066,11 +3072,11 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3103,11 +3109,11 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3187,7 +3193,6 @@ break
    
   ꪶ🐕Convert Menu🐕ꫂ
   ➙ ${prefix}toimage
-  ➙ ${prefix}removebg
   ➙ ${prefix}sticker
   ➙ ${prefix}emojimix
   ➙ ${prefix}tovideo
@@ -3244,11 +3249,11 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `Kenneth ID`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube📍',
-                                    url: 'https://youtu.be/imFIX-Wrt3s'
+                                    url: 'https://youtu.be/UA_j_72psoo'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3264,8 +3269,8 @@ break
 break
 case 'tqtt': 
 reply(`Thanks to
-LORD BUDDHA
-Xeon (Me)
+LORD SATAN
+Ken (Me)
 My family
 And all friends who helped assemble this sexy script !!!`)
 break
